@@ -31,3 +31,16 @@ export interface Appointment extends Models.Document {
   userId: string;
   cancellationReason: string | null;
 }
+
+export interface Customer {
+  id: number;
+  name: string;
+  email: string;
+  petName: string;
+  petDetail: string;
+  service: string;
+  price: number;
+  employee: string;
+  updatedAt: string;
+  status: string;
+}
